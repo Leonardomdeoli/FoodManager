@@ -1,6 +1,6 @@
 # Getting Started
 
-Para iniciar o servidor excute o startServer.bat
+Para iniciar o servidor execute o startServer.bat
 
 Iniciando dervidor via llinha de comando
 ```sh
@@ -9,7 +9,6 @@ $ java -jar target/FoodManager-0.0.1-SNAPSHOT.jar
 ```
 
 java -jar target/FoodManager-0.0.1-SNAPSHOT.jar
-
 
 ## Status
 [![GitHub version](https://badge.fury.io/gh/Leonardomdeoli%2FFoodManager.svg)](https://badge.fury.io/gh/Leonardomdeoli%2FFoodManager)
