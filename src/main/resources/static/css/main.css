@@ -1,0 +1,40 @@
+.card-custom{
+    padding: 8px;
+    height: 310px;
+    width: 255px;
+}
+  
+.color-price{
+    color: #f4be0e;
+    margin-top: 5px;
+}
+
+.btn-card {
+    height: 38px;
+    width: 100px;
+}
+
+.size-btn {
+    margin-right: 4px;
+}
+.card-itens{
+    height: 380px;
+    cursor: pointer;
+    min-width: 255px;
+}
+
+.icon-check{
+    font-size:30px;
+    margin-top: 10px;
+}
+
+.img-card{
+    width: 200px;
+    height: 150px;
+}
+
+.card-text{
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: start;
+}

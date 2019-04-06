@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr" ng-app="managementApp" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lanchonete</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <dir-carregando></dir-carregando>
+
+    <div ng-view class="d-flex flex-column h-100"></div>
+
+    <script src="./js/lib/angular.js"></script>
+    <script src="./js/lib/angular-sanitize.js"></script>
+    <script src="./js/lib/angular-animate.js"></script>
+    <script src="./js/lib/angular-route.js"></script>
+    <script src="./js/lib/jquery-3.3.1.min.js"></script>
+    <script src="./js/lib/bootstrap.min.js"></script>
+    <script src="./js/lib/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/config/config.js"></script>
+    <script src="./js/service/service-proxy.service.js"></script>
+    <script src="./js/service/message.service.js"></script>
+    <script src="./js/lib/numeraljs.js"></script>
+    <script src="./js/directive/numeric-stepper/numeric-input.directive.js"></script>
+    <script src="./js/service/angular-utils.js"></script>
+    <script src="./js/directive/carregando.directive.js"></script>
+    <script src="./js/controller/produtos.controller.js"></script>
+</body>
+
+</html>
