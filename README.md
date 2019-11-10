@@ -2,7 +2,7 @@
 
 Para iniciar o servidor execute o startServer.bat
 
-Iniciando dervidor via llinha de comando
+Iniciando servidor via linha de comando
 ```sh
 $ cd FoodManager
 $ java -jar target/FoodManager-0.0.1-SNAPSHOT.jar
